@@ -1,0 +1,36 @@
+svg {
+  display: block;
+  margin: auto;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 5px;
+}
+
+.cell {
+  /* border: 1px solid black; */
+}
+
+.cell:hover {
+  stroke: black;
+  stroke-width: 2px;
+}
+
+#tooltip {
+  position: relative;
+  width: 100px;
+  height: 80px;
+  background: #f1f1f1;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 22px;
+  border: 1px solid black;
+  opacity: .8;
+}
+
+#legend {
+  border-bottom: 1px solid black;
+  /* transform: translate(100px, 100px) */
+}
